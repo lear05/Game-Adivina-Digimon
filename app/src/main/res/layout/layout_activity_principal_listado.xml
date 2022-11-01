@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:measureWithLargestChild="false"
+android:orientation="vertical"
+android:background="#17b7bd">
+
+<fragment
+    android:id="@+id/fragment_listado"
+    android:name="com.example.republicadegamer.juego_digimon.Fragment_Lista"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp" />
+
+
+    </LinearLayout>

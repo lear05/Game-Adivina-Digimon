@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:measureWithLargestChild="false"
+    android:orientation="vertical"
+    android:background="#17b7bd">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saber más"
+        android:id="@+id/btnsaber"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/mybutton" />
+
+    <ListView
+        android:id="@+id/lvlista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

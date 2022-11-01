@@ -1,0 +1,76 @@
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/fondoprincipall">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/menu_titulo"
+        android:id="@+id/textView"
+
+        android:layout_gravity="center_horizontal"
+        android:textSize="40dp"
+        android:textColor="@color/negrito"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+
+        android:textIsSelectable="false" />
+
+    <Button
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_jugar"
+        android:id="@+id/btnjugar"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/mybutton"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/negrito"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_otro"
+        android:id="@+id/btnlista"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/btnjugar"
+        android:layout_alignLeft="@+id/btnjugar"
+        android:layout_alignStart="@id/btnjugar"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/negrito" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_opciones"
+        android:id="@+id/btnopciones"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/negrito"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/btnlista"
+        android:layout_alignStart="@+id/btnlista" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_Salir"
+        android:id="@+id/btnsalir"
+        android:background="@drawable/mybutton"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/btnopciones"
+        android:textColor="@color/negrito"
+        android:layout_below="@+id/btnopciones"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>

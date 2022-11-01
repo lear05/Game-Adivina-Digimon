@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prueba12">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡EXCELENTE!"
+            android:id="@+id/lblexcelente"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:textColor="@color/general"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adivinaste los digimons"
+            android:id="@+id/lbladivinaste"
+            android:textColor="@color/negrito"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView2"
+            android:background="@drawable/fondo_ganar" />
+    </LinearLayout>
+</LinearLayout>

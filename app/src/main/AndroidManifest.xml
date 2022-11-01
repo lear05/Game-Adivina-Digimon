@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.republicadegamer.juego_digimon" >
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.republicadegamer.juego_digimon.Principal"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.republicadegamer.juego_digimon.Jugar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.example.republicadegamer.juego_digimon.Creditos"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.republicadegamer.juego_digimon.Opciones"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Digivice"
+            android:label="Digivice"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.example.republicadegamer.juego_digimon.Perder"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.republicadegamer.juego_digimon.Ganar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.republicadegamer.juego_digimon.Activity_Detalle"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.republicadegamer.juego_digimon.Activity_Principal"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
+    </application>
+
+</manifest>
